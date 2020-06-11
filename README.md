@@ -25,6 +25,8 @@ Appium MiniProgram Driver 是针对微信小程序的测试自动化工具。将
 
 #### 截图 API 有问题
 
+> 更新：确实是 bug，基础库 2.11.1 版本后修复了，也可以清除开发者工具缓存临时解决。
+
 miniprogram-automator 的 screenshot 本身就有问题，一开始好好的突然开始截图失败。
 
 ```
