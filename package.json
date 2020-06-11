@@ -1,0 +1,33 @@
+{
+  "name": "appium-mp-driver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "gulp prepublish",
+    "test": "gulp once",
+    "watch": "gulp",
+    "lint": "gulp eslint",
+    "clean": "rm -rf node_modules && rm -f package-lock.json && npm install",
+    "start": "node build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.10.2",
+    "appium-base-driver": "^6.2.2",
+    "asyncbox": "^2.6.0",
+    "lodash": "^4.17.15",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "appium-gulp-plugins": "^5.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-appium": "^4.5.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "gulp": "^4.0.2",
+    "miniprogram-automator": "^0.9.1",
+    "webdriverio": "^6.1.17"
+  }
+}
